@@ -1,0 +1,44 @@
+body{
+
+    background: rgba(102, 255, 0, 0.055);
+    }
+    select {
+    background-color: #a190a7;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    
+    h1{
+    
+    
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    h2 {
+    
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    span{
+    color:rgb(107, 92, 240);
+    
+    }
+    div#mainchart{
+    margin-left: 600px;
+    margin-right: 400px;
+    }
+    div#dropdown{
+    margin-left: 50px;
+    }
+    div#chart{
+    border: slateblue;
+    }
+    .line {
+      fill: none;
+      stroke: #EF5285;
+      stroke-width: 3px;
+    }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Line chart</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="lineChart.css">
+
+</head>
+
+<body>
+
+
+    <div id="mainchart">
+        <h1>Europeon countries covid daily cases!</h1>
+        <h2>Select Country: <span id="location"><b></b></span> </h2>
+        <p id="vis-container"></p>
+        <div id="dropdown">
+            <select id="select"></select>
+        </div>
+
+        <div id="cases"></div>
+        <div id="days"></div>
+
+
+
+        <div id="chart-display"></div>
+        <div id="chart"></div>
+
+
+
+    </div>
+    <script src="dataScript.js"></script>
+</body>
+
+</html>
