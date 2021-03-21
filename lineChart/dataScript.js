@@ -3,7 +3,7 @@ var $ = function (id) {
 }
 // Get a CSV file for manipulation 
 //==========================================================================================================
-d3.csv("http://localhost/Final_Code/d3-Charts/barChart/dailyrecord1.csv").then(function (data) {
+d3.csv("http://localhost/Final_Code/d3-Charts/lineChart/dailyrecord1.csv").then(function (data) {
 
     rows = data;
 
